@@ -163,7 +163,7 @@ body {
 .address-item {
   line-height: 1.71;
 
-  columns: var(--minor-color);
+  color: var(--minor-color);
 }
 
 /* FILTER */
@@ -175,7 +175,7 @@ body {
   letter-spacing: inherit;
   cursor: pointer;
 
-  columns: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .projects-item {
