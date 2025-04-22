@@ -7,7 +7,7 @@
   --subtle-text: #8e8f99;
   --acent: #e7e9fc;
   --light: #f4f4fd;
-  --modal-overlay: #2E2F42;
+  --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
@@ -45,8 +45,8 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-brand);
+  text-transform: uppercase;
+  color: var(--primary-brand);
 }
 
 .header-studio {
@@ -63,7 +63,7 @@ color: var(--primary-brand);
   color: var(--pressed-state);
 }
 
-.active {
+.nav-link .active {
   color: var(--pressed-state);
   text-decoration: solid underline var(--pressed-state);
 }
@@ -83,32 +83,32 @@ color: var(--primary-brand);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--white-background);
   text-align: center;
 }
 
 .hero-button {
-font-weight: 500
+  font-weight: 500;
   line-height: inherit;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
   background-color: var(--primary-brand);
-cursor: pointer;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus,
 .hero-button:active {
   background-color: var(--pressed-state);
-
 }
 
 .subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--dark);
   background-color: var(--white-background);
 }
@@ -123,9 +123,9 @@ letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
   color: var(--dark);
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-list-item {
@@ -137,10 +137,7 @@ text-transform: capitalize;
   background-color: var(--dark);
 }
 
-.footer-studio {
-  color: var(--white-background);
-}
-
+.footer-studio,
 .footer-text {
   color: var(--light);
 }
