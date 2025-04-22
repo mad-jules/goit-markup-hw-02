@@ -63,7 +63,7 @@ body {
   color: var(--pressed-state);
 }
 
-.nav-link .active {
+.nav-list-item.active {
   color: var(--pressed-state);
   text-decoration: solid underline var(--pressed-state);
 }
