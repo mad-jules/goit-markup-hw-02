@@ -55,6 +55,9 @@ body {
 
 .nav-list-item {
   font-weight: 500;
+}
+
+.nav-link {
   color: var(--dark);
 }
 
@@ -62,6 +65,7 @@ body {
 .nav-link:focus {
   color: var(--pressed-state);
 }
+
 
 .nav-list-item.active {
   color: var(--pressed-state);
