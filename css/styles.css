@@ -7,7 +7,7 @@
   --subtle-text: #8e8f99;
   --acent: #e7e9fc;
   --light: #f4f4fd;
-  --modal-overlay: #2e2f42;
+  --modal-overlay: #2E2F42;
   --hero-background: #2e2f42;
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
@@ -24,7 +24,7 @@ ul {
   list-style-type: none;
 }
 
-.address {
+address {
   font-style: normal;
 }
 
@@ -43,13 +43,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-brand);
 }
 
-.mutual-web {
-  color: var(--primary-brand);
-}
 .header-studio {
   color: var(--dark);
 }
@@ -84,44 +83,32 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+letter-spacing: 0.02em;
   color: var(--white-background);
+  text-align: center;
 }
 
 .hero-button {
-  font-weight: inherit;
+font-weight: 500
   line-height: inherit;
   letter-spacing: 0.04em;
   color: var(--white-background);
   background-color: var(--primary-brand);
+cursor: pointer;
 }
 
 .hero-button:hover,
+.hero-button:focus,
 .hero-button:active {
   background-color: var(--pressed-state);
-  cursor: pointer;
-}
 
-/* OUR BENEFITS */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip-path: inset(100%);
-  clip: rect(0px, 0px, 0px, 0px);
-  margin: -1px;
-  border-width: 0px;
-  border-style: initial;
-  border-color: initial;
-  border-image: initial;
-  padding: 0px;
-  white-space: nowrap;
 }
 
 .subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+letter-spacing: 0.02em;
   color: var(--dark);
   background-color: var(--white-background);
 }
@@ -134,8 +121,11 @@ body {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   color: var(--dark);
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .team-list-item {
