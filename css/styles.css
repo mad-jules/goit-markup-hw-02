@@ -67,9 +67,9 @@ body {
 }
 
 
-.nav-list-item.active {
+.nav-link.active {
   color: var(--pressed-state);
-  text-decoration: solid underline var(--pressed-state);
+  text-decoration: underline solid var(--pressed-state);
 }
 
 .contact-item:hover,
